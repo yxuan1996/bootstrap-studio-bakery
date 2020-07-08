@@ -1,0 +1,92 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/background.jpg) no-repeat;
+  background-size: cover;
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-section {
+  text-align: center;
+  padding: 50px;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+  color: #666;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#why i {
+  font-size: 42px;
+  color: #c90874;
+}
+
+#why .item {
+  margin-top: 36px;
+}
+
+#why .item h2 {
+  font-weight: normal;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+.dark-section {
+  background-color: #d6eef4f;
+}
+
+#logo {
+  max-height: 42px;
+  margin-right: 10px;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: rgba(0,0,0,0.9);
+  background-color: rgba(240,78,146,0.5);
+  border-color: transparent;
+}
+
+#why .item p {
+  color: #635b5b;
+}
+
